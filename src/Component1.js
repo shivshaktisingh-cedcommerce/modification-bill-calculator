@@ -17,24 +17,27 @@ export default class Component1 extends Component {
             this.setState({result1:"Please enter your units"})
             return; 
         }
+
+
+
         var bill;
            this.setState({unit:units})
-           if(units<50){
+           if(units<=50){
                bill=units*3.5
                this.setState({result1:""})
            }
-           if(units>49 && units<150){
+           if(units>50 && units<=150){
                 bill= 50*3.5 + (units-50)*4
                 this.setState({result1:""})
 
            }
-           if(units>149 && units<250){
-            bill= 50*3.5 + (units-100)*4 + (units-150)*5.2
+           if(units>150 && units<=250){
+            bill= 50*3.5 + 100*4 + (units-150)*5.2
             this.setState({result1:""})
 
            }
-           if(units>249){
-            bill= 50*3.5 + (units-100)*4 + (units-150)*5.2 +(units-250)*6.5
+           if(units>250){
+            bill= 50*3.5 + 100*4 + 100*5.2 +(units-250)*6.5
             this.setState({result1:""})
 
            }
