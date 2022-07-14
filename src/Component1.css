@@ -1,0 +1,115 @@
+#component1{
+    width:80%;
+    min-height:80vh;
+    margin:auto;
+    background-color: #c3c9c6;
+    margin-top:5%;
+    padding-top:10%;
+}
+#component11{
+    width:80%;
+    min-height:60vh;
+    margin:auto;
+    background-color: #949c97;
+    padding-top:5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+}
+#input1{
+    width:30%;
+    height:4vh;
+    display:block;
+    margin:auto;
+    border:none;
+    outline:none;
+    border-radius:3px;
+    font-size:2vw;
+    font-weight:500;
+    color:#1e2120;
+    text-align: center;
+    
+}
+#btn{
+    display:block;
+    margin:auto;
+    margin-top:5%;
+    font-size:1.5vw;
+    width:20%;
+    height:4vh;
+    border:none;
+    outline:none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#result{
+    width:60%;
+    margin:auto;
+    margin-top:10%;
+    color:#2C3639;
+    font-size:2vw;
+}
+#result1{
+    width:60%;
+    margin:auto;
+    margin-top:10%;
+    color:red;
+    font-size:2vw;
+}
+@media only screen and (max-width: 700px) {
+    #component1{
+        width:100%;
+        min-height:80vh;
+        margin:auto;
+        background-color: #c3c9c6;
+        margin-top:5%;
+        padding-top:10%;
+    }
+    #component11{
+        width:90%;
+        min-height:60vh;
+        margin:auto;
+        background-color: #949c97;
+        padding-top:10%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+       
+    }
+    #input1{
+        width:70%;
+        height:4vh;
+        display:block;
+        margin:auto;
+        margin-top:10%;
+        border:none;
+        outline:none;
+        border-radius:3px;
+        font-size:5vw;
+        font-weight:500;
+        color:#1e2120;
+        text-align: center;
+        
+    }
+    #btn{
+        display:block;
+        margin:auto;
+        margin-top:10%;
+        font-size:4.5vw;
+        width:60%;
+        height:4vh;
+        border:none;
+        outline:none;
+    }
+    #result{
+        width:60%;
+        margin:auto;
+        margin-top:10%;
+        color:#2C3639;
+        font-size:5vw;
+    }
+    #result1{
+        width:60%;
+        margin:auto;
+        margin-top:10%;
+        color:red;
+        font-size:5vw;
+    }
+
+}
